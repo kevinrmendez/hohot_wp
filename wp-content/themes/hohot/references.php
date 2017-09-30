@@ -1,5 +1,5 @@
 <?php /*Template Name: References */ ?>
-<?php wp_head(); ?>
+<?php get_header();?>
 
 <div class="part1">
   <div class=" polygon-references">
@@ -134,4 +134,4 @@
 </div>
 
 
-<?php wp_footer(); ?>
+<?php get_footer();?>

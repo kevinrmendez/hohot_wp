@@ -1,5 +1,5 @@
 <?php /*Template Name: About */ ?>
-<?php wp_head(); ?>
+<?php get_header();?>
 
 <div class="polygon polygon-about-us">
 <h1 class="polygon-title">Meet Hohot's consultants</h1>
@@ -156,4 +156,4 @@ and international corporates.</p>
 </div>
 </section>
 
-<?php wp_footer(); ?>
+<?php get_footer();?>

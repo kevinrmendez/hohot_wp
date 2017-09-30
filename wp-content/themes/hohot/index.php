@@ -1,4 +1,4 @@
-<?php wp_head();?>
+<?php get_header();?>
 
     <div class="polygon polygon-home">
       <div class="content">
@@ -173,4 +173,4 @@
         </section>
       </div>
     </section>
-    <?php include 'footer.php';?>
+    <?php get_footer();?>

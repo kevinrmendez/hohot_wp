@@ -37,8 +37,7 @@ $headers = 'From: '. $email . "\r\n" .
 
  ?>
 
-<?php wp_head(); ?>
-
+<?php get_header();?>
 <div class="polygon polygon-contact">
 <h1 class="polygon-title">Get in touch with the Hohot team!</h1>
 </div>
@@ -81,4 +80,4 @@ $headers = 'From: '. $email . "\r\n" .
 </section>
 
 
-<?php wp_footer(); ?>
+<?php get_footer();?>

@@ -1,5 +1,5 @@
 <?php /*Template Name: Services */ ?>
-<?php wp_head(); ?>
+<?php get_header(); ?>
 
 <div class="polygon polygon-services">
   <h1 class="polygon-title">Tailored services regarding China and Chinese market</h1>
@@ -105,4 +105,4 @@
 </div>
 </section>
 
-<?php wp_footer(); ?>
+<?php get_footer(); ?>
