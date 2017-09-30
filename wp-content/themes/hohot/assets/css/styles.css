@@ -22,6 +22,9 @@ a:hover{
   color: #00989D !important;
   text-decoration: none;
 }
+a:visited{
+  color: color: #00989D ;
+}
 p{
   font-size: 1.3em;
   color: #4D4D4D;
@@ -164,6 +167,7 @@ clip-path: polygon(0 39%, 100% 0, 100% 100%, 0 100%);
 /************images style*********/
 .face img{
   width: 50%;
+  margin-bottom: 10%;
 }
 .partner-logo img{
   width: 50%;
@@ -171,8 +175,8 @@ clip-path: polygon(0 39%, 100% 0, 100% 100%, 0 100%);
   margin-bottom: 20%;
 }
 .service-icon{
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   display: block;
   position: relative;
   left: 25%;
@@ -426,8 +430,11 @@ section.testimonials{
 section .testimonials-text h3, section.services h3{
     margin-bottom: 10%;
 }
+section.services{
+  padding-bottom: 0px;
+}
 section.testimonials p{
-  font-size: 1.3em;
+  font-size: 1.8em;
   line-height: 120%;
   text-align: center;
   color: #fff;
@@ -608,13 +615,18 @@ section.contact-section-form input[type="submit"]{
 }
 .testimonials-text .author{
   text-align: right;
-  font-size: 1.2em;
+  font-size: 1.7em;
   margin-top: 10%;
 }
 section.info-section a{
   text-align: center;
   color: #000;
   font-size: 1.3em;
+  position: relative;
+  left: 20%;
+}
+section.info-section a:visited{
+  color: #000;
 }
 
 /******footer***********/
@@ -635,12 +647,11 @@ footer .container{
   padding-bottom: 100px;
 }
 footer .contact-form p{
-  font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: right;
   position: relative;
-  right:40%;
   color: #fff;
+  right: 20%;
 }
 footer .contact-info p{
   font-size: 1.2em;
@@ -664,7 +675,7 @@ footer input[type="submit"]{
   position: relative;
   font-size: 1em;
   text-align: center;
-  left: 200px;
+  left: 20px;
 }
 footer input.btn{
   display: block;
@@ -673,7 +684,6 @@ footer .footer-links ul li{
   margin-left: 2%;
 }
 input{
-  display: block;
   text-align: right;
   font-size: 1.3em;
   margin-bottom: 14px;
@@ -684,7 +694,7 @@ textarea{
   width: 320px;
   color: #4D4D4D;
   text-align: right;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .contact-info, .contact-form{
   position: relative;
@@ -727,19 +737,28 @@ nav{
     background-color: #00989D;
     color: #fff !important;
   }
-  input{
-    width: 100%;
+  input, textarea{
+    width: 90%;
+    position: relative;
+    left: 14%;
   }
-    textarea{
-      width: 100%;
-    }
+  section.info-section a{
+    left: 0%;
+  }
+  section .testimonials-text h3, section.services h3{
+    font-size: 1.5em;
+  }
+  .testimonials-text .author{
+    font-size: 1em;
+  }
+
 
     .polygon-white{
       padding-top: 20%;
     }
     .polygon{
       height: 450px;
-      clip-path:polygon(0 0, 100% 0%, 100% 100%, 0 60%);
+      clip-path:polygon(0 0, 100% 0%, 100% 100%, 0 75%);
     }
     .polygon h1{
       position: relative;
@@ -855,12 +874,15 @@ section.reference-projects-cases img{
     .team .col-xs-12.col-sm-6.col-md-3 p{
       text-align: center;
     }
+    section.consultants a.btn-center{
+      top: 0px;
+    }
     section.contact-section-form input[type="submit"]{
       width: 80%;
     }
 
     section.contact-section-form{
-      width: 80%;
+      width: 70%;
     }
 
     section.contact-section-form h3{
@@ -881,7 +903,11 @@ section.reference-projects-cases img{
       left: 5%;
     }
     section.partner h3{
-      top: 0px;
+      top: -20px;
+    }
+    section.picture h3{
+      text-align: center;
+      left: 0px;
     }
     section.consultants h4{
       text-align: center;
@@ -891,8 +917,8 @@ section.reference-projects-cases img{
       padding-top: 100px;
     }
     section.services-section .col-xs-12.col-sm-3.col-md-4.text{
-      left: 30%;
-      margin-bottom: 5%;
+      left: 10%;
+      margin-bottom: 20%;
     }
 
   }

@@ -42,7 +42,7 @@
         </div>
 
         <div class="row team-description">
-          <div class="col-md-10">
+          <div class="col-md-11">
               <p class="text-center">We simply are a group of Chinese professionals in Finland
               who wish to help you on your way to succed from Chinese market</p>
           </div>
