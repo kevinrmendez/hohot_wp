@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php wp_head();?>
 
     <div class="polygon polygon-home">
       <div class="content">
