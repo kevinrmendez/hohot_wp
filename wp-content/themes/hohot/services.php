@@ -3,6 +3,7 @@
 
 <div class="polygon polygon-services">
   <h1 class="polygon-title">Tailored services regarding China and Chinese market</h1>
+  <a class="btn btn-white  btn-main" href="#">LEARN MORE ABOUT OUR REFERENCE PROJECTS</a>
 </div>
 
 <section class="services-section">

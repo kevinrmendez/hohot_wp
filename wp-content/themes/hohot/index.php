@@ -1,10 +1,12 @@
+<?php /*Template Name: Home*/ ?>
+
 <?php get_header();?>
 
     <div class="polygon polygon-home">
       <div class="content">
         <h1>Adds Chinese flavours to your business</h1>
-        <a class="btn btn-white" href="http://kevinrmendez.com/">LEARN MORE ABOUT US</a>
-        <a class="btn btn-transparent-white btn-contact"href="<?php echo get_page_link(9) ?>">CONTACT US</a>
+        <a class="btn btn-white " href="http://kevinrmendez.com/">LEARN MORE ABOUT US</a>
+        <a class="btn btn-transparent-white btn-contact"href="<?php echo get_page_link(5) ?>">CONTACT US</a>
       </div>
     </div>
     <!-----------------team section------------------------------------->
@@ -49,7 +51,7 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-              <a class="btn btn-transparent-blue btn-center " href="<?php echo get_page_link(5) ?>"> LEARN MORE ABOUT THE TEAM</a>
+              <a class="btn btn-transparent-blue btn-center " href="<?php echo get_page_link(2) ?>"> LEARN MORE ABOUT THE TEAM</a>
           </div>
         </div>
       </div>
@@ -91,7 +93,7 @@
          <!--------------end of partners logos ------------------>
          <div class="row">
            <div class="col-md-8">
-             <a class="btn btn-transparent-blue btn-center" href="#"> LEARN MORE ABOUT OUR PARTNERS</a>
+             <a class="btn btn-transparent-blue btn-center" href="<?php echo get_page_link(2) ?>"> LEARN MORE ABOUT OUR PARTNERS</a>
            </div>
          </div>
       </div>
@@ -143,7 +145,7 @@
             </div>
             <div class="row">
               <div class="col-md-8">
-                <a class="btn btn-transparent-blue btn-center" href="#"> LEARN MORE ABOUT OUR SERVICES</a>
+                <a class="btn btn-transparent-blue btn-center" href="<?php echo get_page_link(14) ?>"> LEARN MORE ABOUT OUR SERVICES</a>
               </div>
             </div>
           </div>
@@ -165,7 +167,7 @@
               </div>
               <div class="row">
                 <div class="col-md-8">
-                  <a class="btn btn-transparent-blue btn-center" href="#">LEARN MORE ABOUT OUR REFERENCE PROJECTS</a>
+                  <a class="btn btn-transparent-blue btn-center" href="<?php echo get_page_link(17) ?>">LEARN MORE ABOUT OUR REFERENCE PROJECTS</a>
                 </div>
               </div>
             </div>

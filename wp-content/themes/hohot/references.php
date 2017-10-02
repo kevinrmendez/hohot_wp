@@ -10,7 +10,7 @@
         consultancies in Finland what comes to the quality and comittment. WSIF is very priviledged to have
         Ms Zara Kukkamaa and Ms Xiaowen Xiong as editors in its stakeholder magazine PureJoy! Book.</p>
         <p class="author">Annamari Lammassaari, Secretary General, WSIF ry</p>
-        <a class="btn btn-transparent-blue btn-center" href="<?php echo get_page_link(7) ?>">LEARN MORE ABOUT OUR SERVICES</a>
+        <a class="btn btn-transparent-blue btn-center" href="<?php echo get_page_link(14) ?>">LEARN MORE ABOUT OUR SERVICES</a>
 
       </div>
     </div>
@@ -54,7 +54,7 @@
             </div>
             </div>
             <div class="row">
-              <a class="btn btn-transparent-blue" href="#">LEARN MORE ABOUT THIS PROGRAM</a>
+              <a class="btn btn-transparent-blue" href="<?php echo get_page_link(2) ?>">LEARN MORE ABOUT THIS PROGRAM</a>
             </div>
         </div>
       </div>
@@ -125,7 +125,7 @@
   </div>
   </div>
   <div class="row">
-    <a  class="btn btn-center btn-transparent-blue" href="#">CONTACT THE CONSULTANTS</a>
+    <a  class="btn btn-center btn-transparent-blue" href="<?php echo get_page_link(5) ?>">CONTACT THE CONSULTANTS</a>
   </div>
 
 

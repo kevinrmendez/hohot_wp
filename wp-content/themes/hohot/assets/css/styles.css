@@ -74,6 +74,13 @@ p{
     background-position: 20% 20%;
     background-repeat: no-repeat;
   }
+   .btn.btn-white.btn-main{
+     margin: 0 auto;
+    top: 25%;
+  }
+  .polygon.polygon-home a.btn{
+    display: inline-block;
+  }
 
   .polygon-references{
     width: 100%;
@@ -150,7 +157,7 @@ clip-path: polygon(0 39%, 100% 0, 100% 100%, 0 100%);
   font-size: 1.8em;
   color: #4D4D4D;
   margin-top: 7%;
-  margin-bottom: 7%;
+
 }
 
 /***********text****************/
@@ -346,7 +353,10 @@ clip-path: polygon(0 39%, 100% 0, 100% 100%, 0 100%);
 .btn{
   font-size: 1.4em;
   font-weight: bold;
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  text-align: center;
+  position: relative;
 }
 .btn-transparent-white{
   border: 2px solid #FFF;
@@ -375,11 +385,9 @@ color: #fff !important;
   color: #fff !important;
 }
 .btn-center{
-  display: inline-block;
-  float: left;
-  position: relative;
-  top: 40px;
-  left: 50%;
+  left: 30%;
+  margin: 0 auto;
+  top: 70px;
 }
 /*************form************/
 /*input[type="submit"]{
@@ -732,7 +740,7 @@ nav{
   margin-top: 0px;
   width: 84%;
   position: relative;
-  left: 15%;
+
 }
 div.wpcf7-mail-sent-ok{
   background-color: #00989D;
