@@ -712,6 +712,9 @@ textarea{
 .navbar-inverse .navbar-nav>li>a{
     background-color: #4D4D4D;
 }
+.navbar-nav li{
+  margin-left: 5%;
+}
 
 
 nav a{
@@ -727,6 +730,15 @@ nav{
 
 .navbar-nav{
   margin-top: 0px;
+  width: 84%;
+  position: relative;
+  left: 15%;
+}
+div.wpcf7-mail-sent-ok{
+  background-color: #00989D;
+  color: #fff;
+  border-color: #00989D; !important;
+  font-size: 1.2em;
 }
 
 
@@ -737,10 +749,14 @@ nav{
     background-color: #00989D;
     color: #fff !important;
   }
+  .navbar-nav {}
   input, textarea{
     width: 90%;
     position: relative;
     left: 14%;
+  }
+  textarea{
+    font-size: 1.3em;
   }
   section.info-section a{
     left: 0%;
@@ -919,6 +935,9 @@ section.reference-projects-cases img{
     section.services-section .col-xs-12.col-sm-3.col-md-4.text{
       left: 10%;
       margin-bottom: 20%;
+    }
+    section.reference-projects-cases .case-no{
+      font-size: 1em;
     }
 
   }

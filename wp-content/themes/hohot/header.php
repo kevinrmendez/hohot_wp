@@ -12,19 +12,24 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/styles.css" rel="stylesheet">
     <style media="screen">
       .polygon-home{
-          background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/home1.png");
+          background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/home1.png") no-repeat center;
+          background-size: cover;
+
       }
       .polygon-about-us{
-          background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/aboutUs.png");
+          background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/aboutUs.png") no-repeat center;
+          background-size: cover;
       }
       .polygon-contact{
-        background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/contactUs.png");
+        background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/contactUs.png") no-repeat center;
+            background-size: cover;
       }
       .polygon-services{
-          background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/service.png");
+          background: url("<?php bloginfo('template_directory'); ?>/assets/img/img/service.png") no-repeat center;
+          background-size: cover;
       }
       .icon-message{
-        background: url("<?php bloginfo('template_directory'); ?>/assets/img/icons/icon-message.png");
+        background: url("<?php bloginfo('template_directory'); ?>/assets/img/icons/icon-message.png") ;
         background-size: 20px;
         background-repeat: no-repeat;
       }

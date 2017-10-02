@@ -125,7 +125,7 @@
   </div>
   </div>
   <div class="row">
-    <a  style="position:relative; left: 40%; margin-bottom:12%;"class="btn btn-center btn-transparent-blue" href="#">CONTACT THE CONSULTANTS</a>
+    <a  class="btn btn-center btn-transparent-blue" href="#">CONTACT THE CONSULTANTS</a>
   </div>
 
 
